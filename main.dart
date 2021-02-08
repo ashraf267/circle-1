@@ -1,5 +1,5 @@
 void main() {
-  var circumference = getCircumference(8);
+  var circumference = getCircumference(6);
   print(circumference);
 }
 
@@ -9,7 +9,6 @@ num getCircumference(var r) {
   if (r != null) {
     // radius r, is given
     ans = 2 * pi * r;
-    ans = ans.ceil();
   }
   return ans;
 }
